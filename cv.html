@@ -14,108 +14,94 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Custom styles for this template -->
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
-    <link href="cv.css" rel="stylesheet"/>
+    <link href="style.css" rel="stylesheet"/>
   </head>
   <body> 
-    <div class="cover-container d-flex flex-column">
-      <header class="masthead mb-auto">
-        <div class="inner">            
-              <div class="nav-scroller py-2 mb-3 ">
-                <nav class="nav nav-pills nav-justified">
-                  <a class="nav-item nav-link" href="home.html">Home</a>
-                  <a class="nav-item nav-link" href="cv.html">My Online CV</a>
-                  <a class="nav-item nav-link" href="more.html">More about me</a>
-                  <a class="nav-item nav-link" href="contact.html">Contact</a>
-                </nav>
-              </div>       
-        </div>
-      </header>
-    <div class="container">
+    <header class="header">      
+        <nav class="nav">
+          <div class="col-sm-3"><a class="nav-link" href="home.html">Home</a></div>
+          <div class="col-sm-3"><a class="nav-link active" href="cv.html">My Online CV</a></div>
+          <div class="col-sm-3"><a class="nav-link" href="more.html">About me</a></div>
+          <div class="col-sm-3"><a class="nav-link" href="#contact.html">Contact</a></div>
+        </nav>              
+    </header>
+    <main class="container card">
       <div class="row">
-        <div class="col-md-12">
-          <h1 class="display-5 border-bottom text-center">Online Resume</h1>
-        </div>
-        <div class="container-fluid">
-          <div class="row">
-              <div class="col-12 mt-3">
-                  <div class="card">
-                      <div class="card-horizontal">
-                          <div class="img-square-wrapper">
-                              <img class="imgCV img-responsive" src="./images/11.PNG" alt="Card image cap">
-                          </div>
-                          <div class="card-body">
-                              <h1 class="card-title">POPA SIMINA-BIANCA</h1>
-                              <p class="card-text">Address: Feroviarilor, Sannicoara (Apahida), Cluj</p>
-                              <p class="card-text">Email: <a href="mailto:siminabianca.popa@yahoo.ro"> siminabianca.popa@yahoo.ro </a> </p> 
-                              <p class="card-text"> <a href="tel:0745-101-037">Tel: 0745.101.037</a> </p>   
-                              <p class="card-text">LinkedIn: <a href="https://www.linkedin.com/in/simina-bianca-popa/"> https://www.linkedin.com/in/simina-bianca-popa/ </a></p>
-                              <p class="card-text">GitHub</p>  
-                          </div>                          
-                      </div>
-                      <div class="card-body">
-                        <div class="col-md-12">
-                          <h1 class="display-5 border-bottom text-left">CAREER OBJECTIVE</h1>
-                        </div>                               
-                        <p class="card-text ">After more than 3 years working in the automotive field, 
-                          I am ready for a new chapter in my professional life. I would like an opportunity as a Front-End Web Development. 
-                          I am an organized and dedicated person who likes new challenges and is willing to learn and develop new skills.   
-                        </p>
-                        <p class="card-text ">
-                          I always liked writing code and last year I decided it was time to start learning more serios about the coding programs, 
-                          so I applied to the Intro IT course, to see the big picture regarding the IT. After that course I realized 
-                          I like more the front-end development part and I follow the JavaScript Course.    
-                        </p>                      
-                      </div>
-                      <div class="card-body">
-                        <div class="col-md-12">
-                          <h1 class="border-bottom text-left">SKILLS AND ABILITIES</h1>
-                        </div>    
-                      <div class="container-fluid">     
-                        <div class="row">                           
-                          <div class="col-sm">
-                            <ul>
-                              <li> Analytical</li>
-                              <li> Communication</li>  
-                              <li> Computer skills </li>                                                        
-                            </ul>
-                          </div>
-                          <div class="col-sm">
-                            <ul>
-                              <li> Customer oriented</li>
-                              <li> Logical Thinking</li>  
-                              <li> Problem-Solving</li>                                                        
-                            </ul>
-                          </div>                         
-                          <div class="col-sm">
-                            <ul>
-                              <li> Teamwork</li>
-                              <li> Time management</li>  
-                              <li> Responsibility</li>                                                        
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+        <div class="col-12 mt-3 CV"> 
+          <div class="row CVGeneralInfo">
+            <div>
+              <img class="imgCV img-responsive" src="./images/11.PNG" alt="Card image cap">
             </div>
-        </div>      
-    <main role="main" class="container">
-      <div class="row">
-        <div class="col-md-12 blog-main">
+            <div class="CVContactInfo">
+              <h1>POPA SIMINA-BIANCA</h1>
+                <p>Address: Feroviarilor, Sannicoara (Apahida), Cluj</p>
+                <p>Email: <a href="mailto:siminabianca.popa@yahoo.ro"> siminabianca.popa@yahoo.ro </a> </p> 
+                <p> <a href="tel:0745-101-037">Tel: 0745.101.037</a> </p>   
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/simina-bianca-popa/"> https://www.linkedin.com/in/simina-bianca-popa/ </a></p>
+                <p>GitHub: <a href="https://github.com/SiminaBia">https://github.com/SiminaBia</a> </p>
+            </div>                          
+          </div>
+          <div class="careerOBJ">
+            <div class="col-md-12">
+              <h1 class="display-5 border-bottom text-left">CAREER OBJECTIVE</h1>
+            </div>                               
+              <p>After more than 3 years working in the automotive field, 
+                  I am ready for a new chapter in my professional life. I would like an opportunity as a Front-End Web Development. 
+                  I am an organized and dedicated person who likes new challenges and is willing to learn and develop new skills.   
+              </p>
+              <p>I always liked writing code and last year I decided it was time to start learning more serios about the coding programs, 
+                  so I applied to the Intro IT course, to see the big picture regarding the IT. After that course I realized 
+                  I like more the front-end development part and I follow the JavaScript Course.    
+              </p>                                            
+          </div>
+          <div class="skills">
+            <div class="col-md-12">
+              <h1>SKILLS AND ABILITIES</h1>
+            </div>    
+            <div>     
+              <div class="row">                           
+                <div class="col-sm-4">
+                  <ul>
+                    <li> Analytical</li>
+                    <li> Communication</li>  
+                    <li> Computer skills </li>                                                        
+                  </ul>
+                </div>
+                <div class="col-sm-4">
+                  <ul>
+                    <li> Customer oriented</li>
+                    <li> Logical Thinking</li>  
+                    <li> Problem-Solving</li>                                                        
+                  </ul>
+                </div>                         
+                <div class="col-sm-4">
+                  <ul>
+                    <li> Teamwork</li>
+                    <li> Time management</li>  
+                    <li> Responsibility</li>                                                        
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>                 
+        </div>                
+      </div>
+      <div class="row CV">
+        <div class="col-md-12">
           <div id="accordion">
-            <div class="card">
-              <div class="card-header">
+            <div>
+              <div>
                 <a class="card-link" data-toggle="collapse" href="#collapseTrainings">
                   <div class="col-md-12">
-                    <h1 class="display-5 border-bottom text-left">PROFESSIONAL TRAININGS</h1>
+                    <h1>PROFESSIONAL TRAININGS</h1>
                   </div>
                 </a>
               </div>
               <div id="collapseTrainings" class="collapse show" data-parent="#accordion">
-                <div class="card-body">
+                <div>
                   <div class="row">
-                    <div class="col-md-10"> <strong> The Informal School of IT – Web Development module </strong>
+                    <div class="col-md-10"> 
+                      <p class="CVStrong"> The Informal School of IT – Web Development module</p> 
                         <ul>
                           <li>HTML5 and CSS3: how to build a User Interface </li>
                           <li>JavaScript: how to use variables, functions, objects, scope, AJAX, jQuery, DOM </li>  
@@ -125,40 +111,40 @@
                           <li>GIT: learned the principles and basic commands </li>
                         </ul>                      
                     </div>
-                    <div class="col-md-2"> <strong>Oct 2019 - Mar 2020</strong>
+                    <div class="col-md-2">  <p> Oct 2019 - Mar 2020</p>
                     </div>
                   </div>
-                    <div class="row">
-                      <div class="col-md-10"> <strong> The Informal School of IT –  Intro IT module  </strong>
-                          <ul>
-                            <li>IT basic: Apps Lifecycle, PC Architecture, Tools </li>
-                            <li>HTML5, CSS3 and JavaScript basics </li>  
-                            <li>Algorithms</li> 
-                            <li>SQL create and manipulate a data base  </li>
-                            <li>Manual Testing </li>                           
-                          </ul>                      
-                      </div>
-                      <div class="col-md-2"> <strong>Jul 2019 - Aug 2020</strong>
-                      </div>
+                  <div class="row">
+                    <div class="col-md-10">  <p class="CVStrong"> The Informal School of IT –  Intro IT module </p>
+                      <ul>
+                        <li>IT basic: Apps Lifecycle, PC Architecture, Tools </li>
+                        <li>HTML5, CSS3 and JavaScript basics </li>  
+                        <li>Algorithms</li> 
+                        <li>SQL create and manipulate a data base  </li>
+                        <li>Manual Testing </li>                           
+                      </ul>                      
                     </div>
+                    <div class="col-md-2">  <p>Jul 2019 - Aug 2020</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="card">
-              <div class="card-header">
+            <div>
+              <div>
                 <a class="collapsed card-link" data-toggle="collapse" href="#collapseExperience">
                   <div class="col-md-12">
-                    <h1 class="display-5 border-bottom text-left">PROFESSIONAL EXPERIENCE</h1>
+                    <h1>PROFESSIONAL EXPERIENCE</h1>
                   </div>
                 </a>
               </div>
               <div id="collapseExperience" class="collapse" data-parent="#accordion">
-                <div class="card-body">
+                <div>
                   <div class="row">
                     <div class="col-md-10">
-                      <strong> Proposal Engineer</strong> <br>
-                      <strong> Emerson Automation Solutions</strong>
-                      <p>Responsibilities:</p>
+                      <p class="CVStrong"> Proposal Engineer</p>
+                      <p class="CVStrong"> Emerson Automation Solutions</p>
+                      <p class="CVStrong"> Responsibilities:</p>
                         <ul>
                           <li>I analyze customer’s requests for quote and generate the bill of materials and services in the estimation tool</li>
                           <li>I prepare the technical and commercial proposal document based on a specific proposal template</li>
@@ -171,56 +157,45 @@
                           </li>
                         </ul> 
                     </div>
-                    <div class="col-md-2"><strong>Jun 2017 - present</strong>
+                    <div class="col-md-2"><p> Nov 2016 - present</p>
                     </div>
                   </div>  
                   <br>  
                   <div class="row">
                     <div class="col-md-10">
-                      <strong> Internship Proposal Engineer </strong> <br>
-                      <strong> Emerson Automation Solutions</strong>
-                          <p>Responsibilities:</p>
-                            <ul>
-                              <li>I analyze customer’s requests for quote and generate the bill of materials and services in the estimation tool</li>
-                              <li>I prepare the technical and commercial proposal document based on a specific proposal template</li>
-                              <li>I offer support for the Benelux and Spain front sales offices:</li>
-                            </ul> 
-                    </div>
-                    <div class="col-md-2"><strong>Nov 2016 - Jun 2017</strong>
-                    </div>
-                  </div>  
-                  <div class="row"> 
-                    <h3 class="text-left">PREVIOUS WORK HISTORY</h3>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-10">
-                      <strong> Researcher (organic and analytical chemistry) </strong> <br>
-                      <strong> “Babes-Bolyai” University, Faculty of Chemistry and Chemical Engineering </strong>
+                      <p  class="CVStrong"> Researcher (organic and analytical chemistry) </p> 
+                      <p  class="CVStrong"> “Babes-Bolyai” University, Faculty of Chemistry and Chemical Engineering </p>
+                      <ul>
+                        <li> I have synthesized different organic compounds starting from the phenothiazine and morpholine substances</li>
+                        <li> I have conducted a series of chemical analysis and determinations HPLC analysis, Cyclic voltammetry, distillation, filtration, 
+                          separation, settling, determining melting and boiling points of substance. </li>
+                      </ul>
                     </div> 
-                    <div class="col-md-2"><strong>Oct 2012 - Jun 2016</strong>
+                    <div class="col-md-2"><p >Oct 2012 - Jun 2016</p>
                     </div>
-                    </div> <br>                    
+                    </div> <br> 
                     <div class="row">
                       <div class="col-md-10">
-                        <strong> Cashier </strong> <br>
-                        <strong> Kaufland </strong>
+                        <p class="CVStrong"> PREVIOUS WORK HISTORY</p>
+                        <p class="CVStrong"> Cashier </p> 
+                        <p class="CVStrong"> Kaufland </p>
                       </div> 
-                      <div class="col-md-2"><strong>Jun 2014 - Feb 2015</strong>
+                      <div class="col-md-2"><p>Jun 2014 - Feb 2015</p>
                       </div>
                   </div>      
                 </div>
               </div>
             </div>
-            <div class="card">
-              <div class="card-header">
+            <div>
+              <div>
                 <a class="collapsed card-link" data-toggle="collapse" href="#collapseLanguages">
                   <div class="col-md-12">
-                    <h1 class="display-5 border-bottom text-left">FOREIGN LANGUAGES </h1>
+                    <h1>FOREIGN LANGUAGES </h1>
                   </div> 
                 </a>
               </div>
               <div id="collapseLanguages" class="collapse" data-parent="#accordion">
-                <div class="card-body">
+                <div>
                   <ul>
                     <li>English – Advanced;</li>
                     <li>Spanish - Advanced;</li>  
@@ -228,45 +203,48 @@
                 </div>
               </div>
             </div>
-            <div class="card">
-              <div class="card-header">
+            <div>
+              <div>
                 <a class="collapsed card-link" data-toggle="collapse" href="#collapseEducation">
                   <div class="col-md-12">
-                    <h1 class="display-5 border-bottom text-left">EDUCATION</h1>
+                    <h1>EDUCATION</h1>
                   </div> 
                 </a>
               </div>
               <div id="collapseEducation" class="collapse" data-parent="#accordion">
-                <div class="card-body">                  
+                <div>                  
                   <div class="row">
                     <div class="col-md-10">
-                      <strong> Master's degree - Advanced Chemical Process Engineering, Faculty of Chemistry and Chemical Engineering, “Babes Bolyai” University  </strong>
+                      <p class="CVStrong"> Master's degree - Advanced Chemical Process Engineering, Faculty of 
+                        Chemistry and Chemical Engineering
+                        <p class="CVStrong">“Babes-Bolyai” University </p>
                     </div> 
-                    <div class="col-md-2"><strong>Oct 2016 - Jun 2018</strong>
+                    <div class="col-md-2"><p>Oct 2016 - Jun 2018</p>
                     </div>
                     </div> <br>
                     <div class="row">
                       <div class="col-md-10">
-                        <strong> Bachelor's degree - Engineering and Chemistry of Organic Substances, Petrochemistry and Carbochemistry, Faculty of Chemistry and Chemical Engineering “Babes-Bolyai” University </strong>
+                        <p class="CVStrong"> Bachelor's degree - Engineering and Chemistry of Organic Substances, Petrochemistry 
+                          and Carbochemistry, Faculty of Chemistry and Chemical Engineering, “Babes-Bolyai” University </p>
                       </div> 
-                      <div class="col-md-2"><strong>Oct 2012 - Jun 2016</strong>
+                      <div class="col-md-2"><p>Oct 2012 - Jun 2016</p>
                       </div>
                     </div> 
                 </div>
               </div>
             </div>
-            <div class="card">
-              <div class="card-header">
+            <div>
+              <div>
                 <a class="collapsed card-link" data-toggle="collapse" href="#collapseOtherInfo">
                   <div class="col-md-12">
-                    <h1 class="display-5 border-bottom text-left">OTHER INFORMATION</h1>
+                    <h1>OTHER INFORMATION</h1>
                   </div> 
                 </a>
               </div>
               <div id="collapseOtherInfo" class="collapse" data-parent="#accordion">
-                <div class="card-body">
+                <div>
                   <div class="row"> 
-                    <h3 class="text-left">TRAININGS</h3>
+                    <p class="CVStrong">TRAININGS</p>
                   </div>
                   <div class="row"> 
                     <ul>
@@ -275,7 +253,7 @@
                     </ul>
                   </div>
                   <div class="row"> 
-                    <h3 class="text-left">VOLUNTEERING</h3>
+                    <h3>VOLUNTEERING</h3>
                   </div>
                   <div class="row"> 
                     <ul>
@@ -285,7 +263,7 @@
                     </ul>
                   </div>
                   <div class="row"> 
-                    <h3 class="text-left">HOBBIES</h3>
+                    <h3>HOBBIES</h3>
                   </div>
                   <div class="row"> 
                     <ul>
@@ -296,31 +274,34 @@
                     </ul>
                   </div>
                   <div class="row"> 
-                    <h3 class="text-left">Driving license</h3>
+                    <h3>Driving license </h3>  <p> - Category B (acquired on 06 Sep 2016) </p>
                   </div>
-                  <div class="row"> 
-                    <p>Category B - acquired on 06 Sep 2016 </p>
+                
+                   
                   </div>
                 </div>
               </div>
             </div>
           </div>
          </div>
-        </div><!-- /.blog-main -->
+        </div>
     </main><!-- /.container -->
   </div>
     
 </div>
-<footer class="mastfoot mt-auto">
-  <div class="p-3">
-    <h4>Contact</h4>
-     <div> 
-     <span> <a href="mailto:siminabianca.popa@yahoo.ro" class=" fa fa-envelope"> </a> </span>
-     <span> <a href="tel:0745-101-037" class="fa fa-mobile-phone"> </a> </span>
-     <span> <a href="https://www.linkedin.com/in/simina-bianca-popa/" class="fa fa-linkedin"> </a> </span>
-     <span> <a href="" class="fa fa-github"></a></span>
+ <!-- FOOTER -->
+ <footer class="footer">
+  <h4>Contact</h4>
+    <div class="row"> 
+      <div class="col-sm-3"></div>
+      <div class="col-sm-6 footer-link">
+        <span> <a href="mailto:siminabianca.popa@yahoo.ro" class=" fa fa-envelope"> </a> </span>
+        <span> <a href="tel:0745-101-037" class="fa fa-mobile-phone"> </a> </span>
+        <span> <a href="https://www.linkedin.com/in/simina-bianca-popa/" class="fa fa-linkedin"> </a> </span>
+        <span> <a href="" class="fa fa-github"></a></span>
+      </div>
+      <div class="col-sm-3"></div>
     </div> 
-  </div>
 </footer> 
  
     <!-- Bootstrap core JavaScript
