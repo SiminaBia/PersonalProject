@@ -5,78 +5,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="../../../../favicon.ico">
 
-    <title>Grid Template for Bootstrap</title>
+    <title>Contact</title>
 
      <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <!-- Custom styles for this template -->
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
-    <link href="contact.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
   </head>
-
   <body>
-
-    <div class="cover-container d-flex flex-column">
-      <header class="masthead mb-auto">
-        <div class="inner">            
-              <div class="nav-scroller py-2 mb-3 ">
-                <nav class="nav nav-pills nav-justified">
-                  <a class="nav-item nav-link" href="home.html">Home</a>
-                  <a class="nav-item nav-link" href="cv.html">My Online CV</a>
-                  <a class="nav-item nav-link" href="#">More about me</a>
-                  <a class="nav-item nav-link" href="contact.html">Contact</a>
-                </nav>
-              </div>       
-        </div>
-      </header>
-
-    <div class="container">
-
-      
-      <div class="container-contact100">
-        <div class="wrap-contact100">
-          <form class="contact100-form validate-form">
-            <span class="contact100-form-title">
-              Say Hello!
-            </span>
-    
-            <div class="wrap-input100 validate-input" data-validate="Name is required">
-              <span class="label-input100">Your Name</span>
-              <input class="input100" type="text" name="name" placeholder="Enter your name">
-              <span class="focus-input100"></span>
-            </div>
-    
-            <div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-              <span class="label-input100">Email</span>
-              <input class="input100" type="text" name="email" placeholder="Enter your email addess">
-              <span class="focus-input100"></span>
-            </div>
- 
-    
-            <div class="wrap-input100 validate-input" data-validate = "Message is required">
-              <span class="label-input100">Message</span>
-              <textarea class="input100" name="message" placeholder="Your message here..."></textarea>
-              <span class="focus-input100"></span>
-            </div>
-    
-            <div class="container-contact100-form-btn">
-              <div class="wrap-contact100-form-btn">
-                <div class="contact100-form-bgbtn"></div>
-                <button class="contact100-form-btn">
-                  <span>
-                    Submit
-                    <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
-                  </span>
-                </button>
+    <!-- HEADER -->
+    <header class="header">      
+      <nav class="nav">
+        <div class="col-sm-3"><a class="nav-link" href="home.html">Home</a></div>
+        <div class="col-sm-3"><a class="nav-link" href="cv.html">My Online CV</a></div>
+        <div class="col-sm-3"><a class="nav-link" href="more.html">About me</a></div>
+        <div class="col-sm-3"><a class="nav-link active" href="contact.html">Contact</a></div>
+      </nav>              
+    </header>
+    <main class="container">
+      <div class="card mainform">
+        <div class="contactCenter">
+          <p> If you need extra information you can contact me using the below form:    
+          </p>
+        </div> 
+        <form>
+          <div class="col-sm-6">         
+            <div>
+              <div> 
+                <label for="lname"><strong> Name</strong></label>
+                <div class="row">
+                  <input type="text" name="lname" id="lname" placeholder="Enter name" />
+                </div>
               </div>
-            </div>
-          </form>
-        </div>
+              <div>
+                <label for="email"><strong>Email</strong></label>           
+                <div class="row">
+                  <input type="text" name="email" id="email" placeholder="Enter email" /> 
+                </div>
+              </div>            
+              <div>
+                <label for="subject"><strong>Subject</strong></label>          
+                <div class="row">
+                  <input type="text" name="subject" id="subject" placeholder="Enter Subject" />
+                </div>
+              </div>
+              <div>
+                <lable for="Message"><strong>Message</strong></lable>        
+                <div class="row">
+                  <input type="text" name="Message" id="message" placeholder="Message"/>
+                </div>
+              </div>
+              <div>
+                <input type="submit" name="submit" id="submit" placeholder="Send Message" />
+              </div>
+            </div>       
+          </div>
+        </form>   
       </div>
-     
-
-    </div> <!-- /container -->
+    </main> <!-- /container -->
+    <!-- FOOTER -->
+    <footer class="footer">
+      <h4>Contact</h4>
+        <div class="row"> 
+          <div class="col-sm-3"></div>
+          <div class="col-sm-6 footer-link">
+            <span> <a href="mailto:siminabianca.popa@yahoo.ro" class=" fa fa-envelope"> </a> </span>
+            <span> <a href="tel:0745-101-037" class="fa fa-mobile-phone"> </a> </span>
+            <span> <a href="https://www.linkedin.com/in/simina-bianca-popa/" class="fa fa-linkedin"> </a> </span>
+            <span> <a href="" class="fa fa-github"></a></span>
+          </div>
+          <div class="col-sm-3"></div>
+        </div> 
+    </footer> 
+    <script src="app.js"></script>
+      <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>

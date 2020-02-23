@@ -17,12 +17,10 @@ body {
 .nav a:hover:not(.active) {
   background-color: #178454;
 }
-
 .active {
   background-color:#AAF0D1;
   color: black;
 }
-
 h3 {
   padding-left: 1.5rem;
 }
@@ -33,20 +31,17 @@ h3 {
   font-weight: bold;
   text-align: center;
 }
-
+/* CARD */
 .card {
   background-color:#AAF0D1;
   margin:0 auto;
 }
-
 .card-link, .card-link:hover {
   text-decoration: none;
   color: black;
-  
 }
 
 /* Home Page style*/
-
 .HomeDescription {
   margin: 0 4rem;
   justify-content: center;
@@ -55,7 +50,6 @@ h3 {
 .HomeDescription p {
   font-size: 2rem;
 }
-
 .homeimg {
   width: 100%;
   height: auto;
@@ -73,13 +67,12 @@ h3 {
 }
 .CVStrong {
   font-weight: bold;
-  padding-left: 1.5rem;
+  margin-left: 1.5rem;
   margin-bottom: 0.1rem;
 }
 .careerOBJ p {
   padding-left: 1.5rem;
 }
-
 .CVGeneralInfo {
   padding-left: 3rem;
 }
@@ -93,44 +86,84 @@ h3 {
   max-width: 25rem;
   max-height: 20rem;
 }
-
+.CVOther {
+  margin-left: 1.5rem;
+}
 
 /* About Page style*/
-    /* Carousel */
-    .carousel-text {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: #fff;
-      text-align: center;
-      font-weight: bolder;
-    }
-    .carousel-text h1 {
-      font-size: 4rem;
-    }
-    .carousel-text p {
-      font-size: 2rem;
-      text-shadow: -0.5rem 0 black, 0 0.5rem black, 0.5rem0 black, 0 -0.5rem black;
-    }
-    .Round-Img-About {
-      width: 20rem; 
-      height: 20rem;
-      border-radius: 50%;
-      margin: 2rem;
-    }
-    .about h2 {
-      font-size: 2.5rem;
-      font-weight: bold;
-    }
-    .about p {
-      font-size: 2rem;
-    }
-    .about{
-      text-align: center;
-      color: #fff;
-    }
+/* Carousel */
+.carousel-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  font-weight: bolder;
+}
+.carousel-text h1 {
+  font-size: 4rem;
+}
+.carousel-text p {
+  font-size: 2rem;
+  text-shadow: -0.5rem 0 black, 0 0.5rem black, 0.5rem0 black, 0 -0.5rem black;
+}
+.Round-Img-About {
+  width: 20rem; 
+  height: 20rem;
+  border-radius: 50%;
+  margin: 2rem;
+}
+.about h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.about p {
+  font-size: 2rem;
+}
+.about{
+  text-align: center;
+  color: #fff;
+}
 
+/* Contact*/
+.mainform {
+  background-color: #AAF0D1;
+  vertical-align: text-top;
+  font-size: 2rem;     
+}
+.contactCenter p {
+text-align: center;
+}
+form{
+display: flex;
+justify-content: space-around;
+}
+input, select, textarea{
+  border-radius: 0.5 rem;
+  border: 0.1rem solid #fff;
+  margin-left: 2rem;
+  margin: 0.5rem;
+}
+::placeholder {
+  vertical-align: text-top;
+}
+#submit {
+  background-color: #178454;
+  width: 10rem;
+  height: 5rem;
+  margin-left: 0;
+  color: #fff;
+ }
+input[type=text] {
+  width: 50rem;
+  height: 3rem;
+  color:green;
+}
+#message  {
+  width: 50rem;
+  height: 20rem;
+}
 
 
 /* Footer*/
@@ -153,7 +186,6 @@ h3 {
     font-size: 1.25rem;
     line-height: 1.4;
   }
-
   .featurette-heading {
     font-size: 50px;
   }
