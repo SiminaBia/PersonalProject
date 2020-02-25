@@ -25,11 +25,13 @@ h3 {
 }
 /* Header */
 .header {
-  margin: 2rem 22rem;
+  margin: 2rem auto;
   font-size: 2rem;
   font-weight: bold;
-  text-align: center;
+  max-width: 110rem;
+  align-items: center;
 }
+
 /* CARD */
 .card {
   background-color:#AAF0D1;
@@ -188,6 +190,8 @@ input[type=text] {
   .featurette-heading {
     font-size: 50px;
   }
+  
+  
 }
 
 @media (min-width: 62em) {

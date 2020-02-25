@@ -33,7 +33,7 @@ function checkInput(event) {
     }
 
     if (inputSubject.value.match(InValideCharacter)) {
-        inputSubject.style.backgroundColor = "red";
+        inputSubject.style.backgroundColor = "red"; 
         button.disable = true;
         alert("wrong subjecgt")
         return false;
